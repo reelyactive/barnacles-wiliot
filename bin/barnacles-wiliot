@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const BarnaclesWiliot = require('../lib/barnacleswiliot.js');
+
+
+let barnaclesWiliot = new BarnaclesWiliot({ printErrors: true });
+
+
+console.log('barnacles-wiliot instantiation test');

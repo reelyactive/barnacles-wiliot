@@ -1,0 +1,37 @@
+{
+  "name": "barnacles-wiliot",
+  "homepage": "https://github.com/reelyactive/barnacles-agora/",
+  "author": "reelyActive <info@reelyactive.com>",
+  "description": "Relay payloads of IoT Pixels from context-aware physical spaces to the Wiliot Cloud.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "Pareto Anywhere",
+    "IoT Pixels",
+    "Wiliot Cloud",
+    "relay"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "./lib/barnacleswiliot.js",
+  "scripts": {
+    "start": "node bin/barnacles-wiliot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnacles-wiliot.git"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  },
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnacles-wiliot/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
